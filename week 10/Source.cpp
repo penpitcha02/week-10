@@ -5,10 +5,10 @@ void main()
     int arr1[100];
     int n, i, j, tmp;
 
-    printf("Input the size of array : ");
+    printf("Input the amount of numbers : ");
     scanf_s("%d", &n);
 
-    printf("Input %d number in the array :\n", n);
+    printf("Input %d number :\n", n);
     for (i = 0; i < n; i++)
     {
         printf("number - %d : ", i);
